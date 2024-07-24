@@ -1,0 +1,95 @@
+/* src/ReferAndEarn.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.refer-and-earn {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.refer-and-earn:hover {
+  transform: scale(1.02);
+}
+
+.refer-and-earn h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+.refer-and-earn p {
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.refer-and-earn form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.refer-and-earn input[type="email"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.refer-and-earn button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.refer-and-earn button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.referral-link {
+  margin-top: 20px;
+}
+
+.referral-link p {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.referral-link input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  text-align: center;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.referral-link input:focus {
+  outline: none;
+  border-color: #007bff;
+}

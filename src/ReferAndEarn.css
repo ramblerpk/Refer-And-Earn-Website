@@ -1,0 +1,51 @@
+/* src/ReferAndEarn.css */
+.refer-and-earn {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .refer-and-earn h2 {
+    margin-bottom: 20px;
+  }
+  
+  .refer-and-earn form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .refer-and-earn input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .refer-and-earn button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .refer-and-earn button:hover {
+    background-color: #0056b3;
+  }
+  
+  .referral-link {
+    margin-top: 20px;
+  }
+  
+  .referral-link input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
